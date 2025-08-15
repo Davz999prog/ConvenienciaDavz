@@ -28,6 +28,7 @@
         android:layout_marginTop="16dp"
         android:hint="Email"
         android:inputType="textEmailAddress"
+        android:text="email maligno"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/text_login_title" />
@@ -48,6 +49,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
+        android:rotationX="-3"
+        android:rotationY="15"
         android:text="Login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -65,4 +68,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="16dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        app:srcCompat="@drawable/shirako_thumbsup"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="381dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
