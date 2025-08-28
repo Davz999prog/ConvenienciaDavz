@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "528056143423",
+    "project_id": "conveniencia-projeto",
+    "storage_bucket": "conveniencia-projeto.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:528056143423:android:ecb3da59fcb52120fdb28a",
+        "android_client_info": {
+          "package_name": "com.ifpr.androidapptemplate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDz6z0x-zaCwyh0HMfOBBEKm8OKIqtBy24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
